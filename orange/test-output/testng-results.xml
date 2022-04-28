@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+    <line>
+      <![CDATA[Opening Chrome in local system]]>
+    </line>
+    <line>
+      <![CDATA[Url is matching]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="46060" started-at="2022-04-27T05:31:30Z" finished-at="2022-04-27T05:32:16Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="46060" started-at="2022-04-27T05:31:30Z" finished-at="2022-04-27T05:32:16Z">
+      <class name="orangetests.OrangeValidLogin">
+        <test-method status="PASS" signature="openApp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:orangetests.OrangeValidLogin@77167fb7]" name="openApp" is-config="true" duration-ms="16967" started-at="2022-04-27T05:31:30Z" finished-at="2022-04-27T05:31:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Opening Chrome in local system]]>
+            </line>
+            <line>
+              <![CDATA[Url is matching]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method status="PASS" signature="testPersonalDetails()[pri:1, instance:orangetests.OrangeValidLogin@77167fb7]" name="testPersonalDetails" duration-ms="9062" started-at="2022-04-27T05:31:47Z" finished-at="2022-04-27T05:31:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPersonalDetails -->
+        <test-method status="PASS" signature="testContactDetails()[pri:2, instance:orangetests.OrangeValidLogin@77167fb7]" name="testContactDetails" duration-ms="9081" started-at="2022-04-27T05:31:56Z" finished-at="2022-04-27T05:32:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testContactDetails -->
+        <test-method status="PASS" signature="testEmergency()[pri:3, instance:orangetests.OrangeValidLogin@77167fb7]" name="testEmergency" duration-ms="4414" started-at="2022-04-27T05:32:05Z" finished-at="2022-04-27T05:32:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEmergency -->
+        <test-method status="PASS" signature="testPic()[pri:4, instance:orangetests.OrangeValidLogin@77167fb7]" name="testPic" duration-ms="6406" started-at="2022-04-27T05:32:09Z" finished-at="2022-04-27T05:32:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPic -->
+        <test-method status="PASS" signature="closeApp()[pri:0, instance:orangetests.OrangeValidLogin@77167fb7]" name="closeApp" is-config="true" duration-ms="81" started-at="2022-04-27T05:32:16Z" finished-at="2022-04-27T05:32:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- orangetests.OrangeValidLogin -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
